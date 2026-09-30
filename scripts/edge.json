@@ -1,0 +1,313 @@
+{
+  "items": [
+    {
+      "id": "b53da366-b185-41a0-8fdc-f9aff898c124",
+      "status": "healthy",
+      "group": "dmorton-linux",
+      "info": {
+        "hostname": "ip-172-31-33-1.us-west-2.compute.internal",
+        "platform": "linux",
+        "architecture": "x64",
+        "release": "6.1.66-91.160.amzn2023.x86_64",
+        "cpus": 8,
+        "totalmem": 33080889344,
+        "node": "v22.22.2",
+        "env": {
+          "CRIBL_SERVICE": "1",
+          "CRIBL_SERVICE_NAME": "cribl-edge",
+          "CRIBL_HOME": "/opt/cribl",
+          "CRIBL_INTERACTIVE": "0",
+          "CRIBL_LOGGER_NOCONSOLE": "1",
+          "CRIBL_INSTANCE_HOME": "/opt/cribl",
+          "CRIBL_ROLE": "undefined",
+          "CRIBL_STATE_DIR": "/opt/cribl/state",
+          "CRIBL_EDGE_FS_ROOT": "/"
+        },
+        "cribl": {
+          "config": {
+            "policyRev": "a12429bc4eed1dbc6c2ca9e72fe0c654",
+            "featuresRev": "OEZaTEqshcY6km+UaneJcOy+gwzL+YX/hAYl2pUDauA=",
+            "hbPeriodSeconds": 60,
+            "version": "148d9cb1",
+            "logStreamEnv": "master"
+          },
+          "pid": 2406,
+          "startTime": 1786977457408,
+          "guid": "b53da366-b185-41a0-8fdc-f9aff898c124",
+          "master": {
+            "host": "main-upbeat-sharp-c5d8alj.cribl.cloud",
+            "port": 4200,
+            "tls": true,
+            "servername": "edge"
+          },
+          "distMode": "managed-edge",
+          "group": "dmorton-linux",
+          "tags": [],
+          "disableSNIRouting": false,
+          "socksEnabled": false,
+          "version": "4.18.2-fd1f0d2f",
+          "lookupVersions": {},
+          "overlayId": "patch.0"
+        },
+        "freeDiskSpace": 5277528064,
+        "totalDiskSpace": 26763833344,
+        "isSaasWorker": false,
+        "apiPort": 9420,
+        "apiScheme": "http",
+        "isCaptain": false,
+        "aws": {
+          "region": "us-west-2",
+          "zone": "us-west-2d",
+          "type": "m6i.2xlarge",
+          "instanceId": "i-06ebd71d9ab9bb7ae"
+        },
+        "os": {
+          "id": "amzn",
+          "addresses": [
+            "172.31.33.1/20"
+          ],
+          "version": "2023"
+        },
+        "conn_ip": "34.218.11.239",
+        "localTime": 1790013235
+      },
+      "workerProcesses": 1,
+      "lastMsgTime": 1790013235143,
+      "deployable": true,
+      "firstMsgTime": 1789559027253,
+      "nodeUpgradeStatus": {
+        "state": 0,
+        "timestamp": 1790013235143
+      },
+      "lastMetrics": {
+        "total.in_bytes:input:system_metrics:in_system_metrics": 154600,
+        "total.in_events:input:system_metrics:in_system_metrics": 773,
+        "total.out_events:output:cribl_http:out_cribl_http_dmorton_linux": 792,
+        "total.out_bytes:output:cribl_http:out_cribl_http_dmorton_linux": 1654518,
+        "health.inputs:input:system_metrics:in_system_metrics": 0,
+        "health.inputs": 0,
+        "health.inputs:input:system_state:in_system_state": 0,
+        "health.inputs:input:windows_metrics:in_windows_metrics": 0,
+        "health.inputs:input:file:in_file_varlog": 0,
+        "health.inputs:input:journal_files:in_journal_local": 0,
+        "health.outputs:output:devnull:devnull": 0,
+        "health.outputs": 0,
+        "health.outputs:output:cribl_http:out_cribl_http_dmorton_linux": 0,
+        "total.in_events": 792,
+        "total.out_events": 792,
+        "total.in_bytes": 159408,
+        "total.out_bytes": 1654518,
+        "total.in_bytes:input:file:in_file_varlog": 4808,
+        "total.in_events:input:file:in_file_varlog": 19
+      },
+      "disconnected": false,
+      "connectionProtocol": "tls",
+      "provisioningTokenId": "legacy-auth-token"
+    },
+    {
+      "id": "bb513e1d-81e2-44c7-93fe-28c8850b9f2f",
+      "status": "healthy",
+      "group": "cribl-pack-dev",
+      "info": {
+        "hostname": "noodletoad-dc",
+        "platform": "win32",
+        "architecture": "x64",
+        "release": "10.0.26100",
+        "cpus": 2,
+        "totalmem": 6774366208,
+        "node": "v22.17.1",
+        "env": {
+          "CRIBL_CONF_DIR": "C:\\ProgramData\\Cribl",
+          "CRIBL_EDGE_FS_ROOT": "\\",
+          "CRIBL_HOME": "C:\\ProgramData\\Cribl",
+          "CRIBL_INSTANCE_HOME": "C:\\ProgramData\\Cribl",
+          "CRIBL_INTERACTIVE": "0",
+          "CRIBL_ROLE": "undefined",
+          "CRIBL_STATE_DIR": "C:\\ProgramData\\Cribl\\state",
+          "CRIBL_VOLUME_DIR": "C:\\ProgramData\\Cribl"
+        },
+        "cribl": {
+          "config": {
+            "policyRev": "a12429bc4eed1dbc6c2ca9e72fe0c654",
+            "featuresRev": "lLuPScuKafwrqqsZwVy2HjNCXSyhtOoUNZlOIPzwiEA=",
+            "hbPeriodSeconds": 60,
+            "version": "76d0ff6",
+            "logStreamEnv": "master"
+          },
+          "pid": 6448,
+          "startTime": 1786052506570,
+          "guid": "bb513e1d-81e2-44c7-93fe-28c8850b9f2f",
+          "master": {
+            "host": "main-upbeat-sharp-c5d8alj.cribl.cloud",
+            "port": 4200,
+            "tls": true,
+            "servername": "edge"
+          },
+          "distMode": "managed-edge",
+          "group": "dmorton-windows",
+          "disableSNIRouting": false,
+          "socksEnabled": false,
+          "version": "4.17.1-b862732f",
+          "lookupVersions": {}
+        },
+        "freeDiskSpace": 95991545856,
+        "totalDiskSpace": 136607428608,
+        "isSaasWorker": false,
+        "os": {
+          "id": "windows",
+          "addresses": [
+            "2600:100f:a105:1d76:ff54:5fc9:ae72:11a3/64",
+            "192.168.0.163/24"
+          ],
+          "version": "Server2025Standard"
+        },
+        "conn_ip": "10.255.2.48",
+        "localTime": 1790016836
+      },
+      "workerProcesses": 1,
+      "lastMsgTime": 1790013246432,
+      "deployable": true,
+      "firstMsgTime": 1790002204791,
+      "nodeUpgradeStatus": {
+        "state": 0,
+        "timestamp": 1790013246432
+      },
+      "lastMetrics": {
+        "total.in_bytes:input:windows_metrics:in_windows_metrics": 14400,
+        "total.in_events:input:windows_metrics:in_windows_metrics": 72,
+        "total.out_events:output:devnull:devnull": 72,
+        "total.out_bytes:output:devnull:devnull": 14400,
+        "edge.dropped_events": 72,
+        "health.inputs:input:system_metrics:in_system_metrics": 0,
+        "health.inputs": 0,
+        "health.inputs:input:system_state:in_system_state": 0,
+        "health.inputs:input:windows_metrics:in_windows_metrics": 0,
+        "health.inputs:input:win_event_logs:in_win_event_logs": 0,
+        "health.outputs:output:devnull:devnull": 0,
+        "health.outputs": 0,
+        "health.outputs:output:cribl_http:cribl-http-pack-dev": 0,
+        "health.outputs:output:cribl_tcp:cribl-tcp-pack-dev": 0,
+        "health.outputs:output:cribl_http:out_cribl_http_dmorton": 0,
+        "total.in_events": 108,
+        "total.out_events": 108,
+        "total.in_bytes": 59155,
+        "total.out_bytes": 76903,
+        "total.in_bytes:input:win_event_logs:in_win_event_logs": 44755,
+        "total.in_events:input:win_event_logs:in_win_event_logs": 36,
+        "total.out_events:output:cribl_http:out_cribl_http_dmorton": 36,
+        "total.out_bytes:output:cribl_http:out_cribl_http_dmorton": 62503,
+        "route.in_bytes:input:win_event_logs:in_win_event_logs": 44755,
+        "route.in_events:input:win_event_logs:in_win_event_logs": 36
+      },
+      "disconnected": false,
+      "connectionProtocol": "tls",
+      "provisioningTokenId": "legacy-auth-token"
+    },
+    {
+      "id": "e0682520-befc-487d-84ac-9b8d61f5ed36",
+      "status": "healthy",
+      "group": "cribl-pack-dev",
+      "info": {
+        "hostname": "WSAMZN-4OOIQL27",
+        "platform": "win32",
+        "architecture": "x64",
+        "release": "10.0.20348",
+        "cpus": 2,
+        "totalmem": 8317349888,
+        "node": "v22.17.1",
+        "env": {
+          "CRIBL_CONF_DIR": "C:\\ProgramData\\Cribl",
+          "CRIBL_EDGE_FS_ROOT": "\\",
+          "CRIBL_HOME": "C:\\ProgramData\\Cribl",
+          "CRIBL_INSTANCE_HOME": "C:\\ProgramData\\Cribl",
+          "CRIBL_INTERACTIVE": "0",
+          "CRIBL_ROLE": "undefined",
+          "CRIBL_STATE_DIR": "C:\\ProgramData\\Cribl\\state",
+          "CRIBL_VOLUME_DIR": "C:\\ProgramData\\Cribl"
+        },
+        "cribl": {
+          "config": {
+            "policyRev": "a12429bc4eed1dbc6c2ca9e72fe0c654",
+            "featuresRev": "lLuPScuKafwrqqsZwVy2HjNCXSyhtOoUNZlOIPzwiEA=",
+            "hbPeriodSeconds": 60,
+            "version": "76d0ff6",
+            "logStreamEnv": "master"
+          },
+          "pid": 5616,
+          "startTime": 1789981692900,
+          "guid": "e0682520-befc-487d-84ac-9b8d61f5ed36",
+          "master": {
+            "host": "main-upbeat-sharp-c5d8alj.cribl.cloud",
+            "port": 4200,
+            "tls": true,
+            "servername": "edge"
+          },
+          "distMode": "managed-edge",
+          "group": "cribl-pack-dev",
+          "disableSNIRouting": false,
+          "socksEnabled": false,
+          "version": "4.17.1-b862732f",
+          "lookupVersions": {}
+        },
+        "isSaasWorker": false,
+        "aws": {
+          "region": "us-west-2",
+          "zone": "us-west-2a",
+          "type": "m7i-flex.large",
+          "instanceId": "i-01cec3649c62dd58c"
+        },
+        "os": {
+          "id": "windows",
+          "addresses": [
+            "172.16.3.177/23",
+            "198.19.81.88/18"
+          ],
+          "version": "Server2022Datacenter"
+        },
+        "conn_ip": "10.255.2.48",
+        "totalDiskSpace": 85777690624,
+        "freeDiskSpace": 47414964224,
+        "localTime": 1789982017
+      },
+      "workerProcesses": 1,
+      "lastMsgTime": 1789982326851,
+      "deployable": true,
+      "firstMsgTime": 1789981717683,
+      "nodeUpgradeStatus": {
+        "state": 0,
+        "timestamp": 1789982017790
+      },
+      "lastMetrics": {
+        "edge.dropped_events": 72,
+        "health.inputs:input:system_metrics:in_system_metrics": 0,
+        "health.inputs": 0,
+        "health.inputs:input:system_state:in_system_state": 0,
+        "health.inputs:input:windows_metrics:in_windows_metrics": 0,
+        "health.inputs:input:win_event_logs:in_win_event_logs": 0,
+        "health.outputs:output:devnull:devnull": 0,
+        "health.outputs": 0,
+        "health.outputs:output:cribl_http:cribl-http-pack-dev": 0,
+        "health.outputs:output:cribl_tcp:cribl-tcp-pack-dev": 0,
+        "health.outputs:output:cribl_http:out_cribl_http_dmorton": 0,
+        "total.in_events": 76,
+        "total.out_events": 76,
+        "total.in_bytes": 20344,
+        "total.out_bytes": 22440,
+        "total.in_events:input:windows_metrics:in_windows_metrics": 72,
+        "total.in_bytes:input:windows_metrics:in_windows_metrics": 14400,
+        "total.out_events:output:devnull:devnull": 72,
+        "total.out_bytes:output:devnull:devnull": 14400,
+        "total.in_bytes:input:win_event_logs:in_win_event_logs": 5944,
+        "total.in_events:input:win_event_logs:in_win_event_logs": 4,
+        "total.out_events:output:cribl_http:out_cribl_http_dmorton": 4,
+        "total.out_bytes:output:cribl_http:out_cribl_http_dmorton": 8040,
+        "route.in_bytes:input:win_event_logs:in_win_event_logs": 5944,
+        "route.in_events:input:win_event_logs:in_win_event_logs": 4
+      },
+      "disconnected": true,
+      "connectionProtocol": "tls",
+      "provisioningTokenId": "legacy-auth-token"
+    }
+  ],
+  "count": 3
+}
